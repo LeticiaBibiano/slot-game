@@ -9,19 +9,20 @@
     "build": "webpack"
   },
   "keywords": [],
-  "author": "",
+  "author": "Leticia Bibiano",
   "license": "ISC",
   "dependencies": {
-    "pixi.js": "^8.2.6"
+    "pixi.js": "^7.3.2"
   },
   "devDependencies": {
-    "css-loader": "^7.1.2",
-    "html-webpack-plugin": "^5.6.0",
-    "style-loader": "^4.0.0",
-    "ts-loader": "^9.5.1",
-    "typescript": "^5.5.4",
-    "webpack": "^5.93.0",
+    "@types/pixi.js": "^5.0.0",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "style-loader": "^3.3.3",
+    "ts-loader": "^9.5.0",
+    "typescript": "^5.2.2",
+    "webpack": "^5.89.0",
     "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^5.0.4"
+    "webpack-dev-server": "^4.15.1"
   }
 }
