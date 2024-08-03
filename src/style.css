@@ -6,10 +6,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(
-      180deg,
-      rgb(96, 185, 197) 0%,
-      rgb(196, 95, 179) 42%,
-      rgb(230, 196, 46) 97%
-    );
+    background: url('assets/images/background.avif') no-repeat center center fixed;
+    background-size: cover;
 }

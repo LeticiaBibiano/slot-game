@@ -44,16 +44,17 @@ class Button extends PIXI.Graphics {
     this.game.app.stage.addChild(this);
   }
   draw() {
-    this.beginFill("#c45fb3");
-    this.drawRect(0, 0, 200, 100);
-    this.endFill();
+    const radius = 50;
+    this.lineStyle(4, "FFFF00", 1);
+    this.beginFill("#FF007F");
+    this.drawRoundedRect(0, 0, 200, 100, radius);
   }
   addText() {
     const text = new PIXI.Text(this.text, {
       fontFamily: "Arial",
-      fontSize: 34,
+      fontSize: 44,
       fontWeight: "bold",
-      fill: "#e6c42e",
+      fill: "#FFFF00",
     });
     text.x = (this.width - text.width) / 2;
     text.y = (this.height - text.height) / 2;
